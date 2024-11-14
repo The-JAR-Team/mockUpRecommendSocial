@@ -1,0 +1,56 @@
+.group-details {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .group-detail-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .meetup-info {
+    margin-top: 20px;
+  }
+  
+  .confirmed-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .confirmed-list li {
+    background-color: #2e2e2e;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  .posts-section {
+    margin-top: 30px;
+  }
+  
+  .post-card {
+    background-color: #2e2e2e;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .post-author {
+    font-weight: bold;
+  }
+  
+  .post-date {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 10px;
+  }
+  
+  .loading-gif {
+    display: block;
+    margin: 0 auto;
+  }
+  

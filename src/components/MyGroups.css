@@ -1,0 +1,8 @@
+.my-groups {
+  padding: 20px 0;
+}
+
+.group-list {
+  display: flex;
+  flex-direction: column;
+}
