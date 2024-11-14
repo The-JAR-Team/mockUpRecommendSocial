@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Dashboard from './components/Dashboard';
+import GroupDetails from './components/GroupDetails';
+import MyGroups from './components/MyGroups';
+import MyEvents from './components/MyEvents';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename="/mockUpRecommendSocial">
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/group/:id" element={<GroupDetails />} />
+          <Route path="/my-groups" element={<MyGroups />} />
+          <Route path="/my-events" element={<MyEvents />} />
+          {/* Add route for friends if needed */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
