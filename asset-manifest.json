@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mockUpRecommendSocial/static/css/main.a791a7d3.css",
-    "main.js": "/mockUpRecommendSocial/static/js/main.8bcbdcfc.js",
+    "main.js": "/mockUpRecommendSocial/static/js/main.36899284.js",
     "index.html": "/mockUpRecommendSocial/index.html",
     "main.a791a7d3.css.map": "/mockUpRecommendSocial/static/css/main.a791a7d3.css.map",
-    "main.8bcbdcfc.js.map": "/mockUpRecommendSocial/static/js/main.8bcbdcfc.js.map"
+    "main.36899284.js.map": "/mockUpRecommendSocial/static/js/main.36899284.js.map"
   },
   "entrypoints": [
     "static/css/main.a791a7d3.css",
-    "static/js/main.8bcbdcfc.js"
+    "static/js/main.36899284.js"
   ]
 }
