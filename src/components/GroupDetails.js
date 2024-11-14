@@ -86,7 +86,7 @@ const GroupDetails = () => {
             <p>{post.content}</p>
           </div>
         ))}
-        {loading && <img src="loading.gif" alt="Loading..." className="loading-gif" />}
+        {loading && <img src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" alt="Loading..." className="loading-gif" />}
       </div>
     </div>
   );
